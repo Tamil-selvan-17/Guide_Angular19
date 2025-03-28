@@ -1,0 +1,8 @@
+{
+    "ProjectName": "nLatex",
+    "apiUrl": "https://localhost:44302/",
+    
+    "Loginpage": {
+    "authlogin": "api/Authentication/login"
+  }
+}

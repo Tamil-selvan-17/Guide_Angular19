@@ -1,0 +1,11 @@
+<div class="p-6">
+    <h2 class="text-2xl font-bold mb-4">Dashboard Overview</h2>
+    
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div *ngFor="let item of items" class="p-4 bg-white shadow-md rounded-md">
+        <h3 class="text-lg font-semibold">{{ item.title }}</h3>
+        <p class="text-2xl font-bold">{{ item.count }}</p>
+      </div>
+    </div>
+  </div>
+  

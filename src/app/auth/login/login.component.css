@@ -1,0 +1,19 @@
+@keyframes bg-wave {
+  0% { transform: translateX(0%); }
+  50% { transform: translateX(-50%); }  /* Move halfway through the wave animation */
+  100% { transform: translateX(0%); }  /* Return to the original position */
+}
+
+@keyframes bg-wave-light {
+  0% { transform: translateX(0%); }
+  50% { transform: translateX(-50%); }  /* Move halfway through the wave animation */
+  100% { transform: translateX(0%); }  /* Return to the original position */
+}
+
+.animate-bg-wave {
+  animation: bg-wave 8s ease-in-out infinite; /* Smooth and slower cycle */
+}
+
+.animate-bg-wave-light {
+  animation: bg-wave-light 10s ease-in-out infinite; /* Smooth and slower cycle */
+}

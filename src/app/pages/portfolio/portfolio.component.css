@@ -1,0 +1,116 @@
+/* Global styles */
+.section {
+    padding: 4rem 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .section-text {
+    color: #d1d5db;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Button styles */
+  .btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: rgb(26 86 219);
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(16 66 179);
+    transform: scale(1.05);
+  }
+  
+  .btn-secondary {
+    background-color: rgb(55 65 81);
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: rgb(75 85 99);
+    transform: scale(1.05);
+  }
+  
+  /* Floating Animation */
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  /* Fade In Animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
+  /* Skill Card */
+  .skill-card {
+    background: linear-gradient(135deg, rgb(31 41 55), rgb(55 65 81));
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Experience Card */
+  .experience-card {
+    background: #1f2937;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Project Card */
+  .project-card {
+    background: linear-gradient(135deg, rgb(75 85 99), rgb(31 41 55));
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
